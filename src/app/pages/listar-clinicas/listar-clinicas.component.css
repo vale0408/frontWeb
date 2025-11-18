@@ -1,0 +1,21 @@
+.tabla {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+}
+
+.tabla th {
+  background-color: #f5f5f5;
+  font-weight: bold;
+}
+
+.tabla, 
+.tabla th, 
+.tabla td {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.tabla tr:nth-child(even) {
+  background-color: #fafafa;
+}

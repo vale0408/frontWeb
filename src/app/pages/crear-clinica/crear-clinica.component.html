@@ -1,0 +1,16 @@
+<h2>Crear Clínica</h2>
+
+<form (ngSubmit)="crear()">
+
+  <label>Nombre</label>
+  <input type="text" [(ngModel)]="clinica.nombre" name="nombre" required>
+
+  <label>Dirección</label>
+  <input type="text" [(ngModel)]="clinica.direccion" name="direccion" required>
+
+  <label>Teléfono</label>
+  <input type="text" [(ngModel)]="clinica.telefono" name="telefono" required>
+
+  <button type="submit">Guardar</button>
+
+</form>
